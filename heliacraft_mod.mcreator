@@ -1,0 +1,83 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Heliacraft",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heliacraft"
+    },
+    {
+      "name": "BiomesWar",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomes_war",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "BiomesWarTeleporterAirRightClick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomes_war_teleporter_air_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BiomesWarTeleporter",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biomes_war_teleporter"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.heliacraft_mod.biomes_war": "Biomes War Portal Igniter",
+      "item.heliacraft_mod.biomes_war_teleporter": "Biomes War Teleporter",
+      "itemGroup.tabheliacraft": "Heliacraft"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "heliacraft_mod",
+    "modName": "Heliacraft Mod",
+    "version": "1.0.0",
+    "author": "ltime, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.heliacraftmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

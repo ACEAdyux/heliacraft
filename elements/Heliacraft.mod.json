@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Heliacraft",
+    "icon": {
+      "value": "Blocks.GRANITE_SLAB"
+    },
+    "showSearch": true
+  }
+}
